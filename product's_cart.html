@@ -1,535 +1,549 @@
 <!DOCTYPE html>
 <html lang='ru'>
-	<head>
-		<meta charset="UTF-8"> 
-		<title>LOGO | Cтраница товара</title>
-		<link rel='stylesheet' href="css/product's_cart.css">
-		<meta name='viewport' content='width=device-width'>
-	</head>
-	<body>
-		<div class="wrapper main-page">
-<script src='../../js/script.js'></script>
-<header class="header">
-	<div class="header__top top-header">
-		<div class="top-header__content _container">
-			<div class="top-header__column">
-				<div class="top-header__menu menu">
-					<!-- less than 598px only -->
-					<div class="menu__icon icon-menu">
-						<span class="icon-menu__burger"></span>
+
+<head>
+	<meta charset="UTF-8">
+	<title>LOGO | Cтраница товара</title>
+	<link rel='stylesheet' href="css/product's_cart.css">
+	<meta name='viewport' content='width=device-width'>
+</head>
+
+<body>
+	<div class="wrapper main-page">
+		<script src='js/script.js'></script>
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__content _container">
+					<div class="top-header__column">
+						<div class="top-header__menu menu">
+							<!-- less than 598px only -->
+							<div class="menu__icon icon-menu">
+								<span class="icon-menu__burger"></span>
+							</div>
+							<!-- /less than 598px only -->
+							<nav class="menu__body">
+								<!-- less than 598px only -->
+								<ul class="menu__actions-header">
+									<li>
+										<a href="#" class="actions-header__login"><span>Вход</span></a>
+									</li>
+									<li>
+										<a href="#" class="actions-header__reg"><span>Регистрация</span></a>
+									</li>
+								</ul>
+								<!-- /less than 598px only -->
+								<ul class="menu__list">
+									<li><a href="#" class="menu__link">Бренды</a></li>
+									<li><a href="#" class="menu__link">Распродажа</a></li>
+									<li><a href="#" class="menu__link">Доставка и сборка</a></li>
+									<li><a href="#" class="menu__link">Гарантия</a></li>
+									<li><a href="#" class="menu__link">Оплата</a></li>
+									<li><a href="#" class="menu__link">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
-					<!-- /less than 598px only -->
-					<nav class="menu__body">
-						<!-- less than 598px only -->
-						<ul class="menu__actions-header"> 						
+					<div class="top-header__column">
+						<a href="index.html" class="top-header__logo"><img src="img/Logo.png" alt=""></a>
+					</div>
+					<div class="top-header__column top-header__column3">
+						<div class="top-header__mobile-contacts"></div>
+						<div class="top-header__contacts contacts-header">
+							<div class="contacts-header__column">
+								<div class="contacts-header__item contacts-header__item_icon">
+									<div class="contacts-header__label">Москва</div>
+									<a href="tel:84991234567" class="contacts-header__phone">8-499-123-45-67</a>
+								</div>
+							</div>
+							<div class="contacts-header__column">
+								<div class="contacts-header__item">
+									<div class="contacts-header__label">Бесплатно для России</div>
+									<a href="tel:84991234567" class="contacts-header__phone">8-800-123-45-67</a>
+								</div>
+							</div>
+							<div class="contacts-header__column contacts-header__column-added">
+								<a href="#" class="info-header__callback"><span>Обратный звонок</span></a>
+							</div>
+							<div class="contacts-header__column contacts-header__column-added">
+								<div href="#" class="info-header__schedule">
+									<p><span>Пн-Пт:</span> 09:00-21:00</p>
+									<p><span>Сб-Вс:</span> 10:00-20:00</p>
+								</div>
+							</div>
+							<div class="contacts-header__column contacts-header__column-added">
+								<a href="mailto:sport@gmail.com" class="actions-header__mail"><span>sport@gmail.com</span></a>
+							</div>
+						</div>
+						<div class="top-header__cart">
+							<a href="#" class="info-header__cart">
+								<span>12</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header-container _container">
+					<div class="bottom-header__column">
+						<ul class="bottom-header__actions actions-header">
 							<li>
-								<a href="#" class="actions-header__login"><span>Вход</span></a>  
+								<a href="#" class="actions-header__login"><span>Вход</span></a>
+								<!-- спан, чтобы не применять эффекты на весь блок, а только на текст  -->
 							</li>
 							<li>
 								<a href="#" class="actions-header__reg"><span>Регистрация</span></a>
 							</li>
-						</ul>
-						<!-- /less than 598px only --> 
-						<ul class="menu__list">
-							<li><a href="#"  class="menu__link">Бренды</a></li>
-							<li><a href="#"  class="menu__link">Распродажа</a></li>
-							<li><a href="#"  class="menu__link">Доставка и сборка</a></li>
-							<li><a href="#"  class="menu__link">Гарантия</a></li>
-							<li><a href="#"  class="menu__link">Оплата</a></li>
-							<li><a href="#"  class="menu__link">Контакты</a></li>
-						</ul>
-					</nav>
-				</div> 
-			</div>
-			<div class="top-header__column">
-				<a href="../../index.html" class="top-header__logo"><img src="../../img/Logo.png" alt=""></a>
-			</div>
-			<div class="top-header__column top-header__column3">
-				<div class="top-header__mobile-contacts"></div>
-				<div class="top-header__contacts contacts-header">
-					<div class="contacts-header__column">
-						<div class="contacts-header__item contacts-header__item_icon">
-							<div class="contacts-header__label">Москва</div>
-							<a href="tel:84991234567" class="contacts-header__phone">8-499-123-45-67</a>
-						</div>
-					</div>
-					<div class="contacts-header__column">
-						<div class="contacts-header__item">
-							<div class="contacts-header__label">Бесплатно для России</div>
-							<a href="tel:84991234567" class="contacts-header__phone">8-800-123-45-67</a>
-						</div>
-					</div>
-					<div class="contacts-header__column contacts-header__column-added">
-						<a href="#" class="info-header__callback"><span>Обратный звонок</span></a>
-					</div>
-					<div class="contacts-header__column contacts-header__column-added">
-						<div href="#" class="info-header__schedule">
-							<p><span>Пн-Пт:</span> 09:00-21:00</p>
-							<p><span>Сб-Вс:</span> 10:00-20:00</p>
-						</div>
-					</div>
-					<div class="contacts-header__column contacts-header__column-added">
-						<a href="mailto:sport@gmail.com" class="actions-header__mail"><span>sport@gmail.com</span></a>
-					</div>
-				</div>
-				<div class="top-header__cart">
-					<a href="#" class="info-header__cart">
-							<span>12</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="header__bottom bottom-header">
-		<div class="bottom-header-container _container">
-			<div class="bottom-header__column">
-				<ul class="bottom-header__actions actions-header">
-					<li>
-						<a href="#" class="actions-header__login"><span>Вход</span></a>    <!-- спан, чтобы не применять эффекты на весь блок, а только на текст  -->
-					</li>
-					<li>
-						<a href="#" class="actions-header__reg"><span>Регистрация</span></a>
-					</li>
-					<li>
-						<a href="mailto:sport@gmail.com" class="actions-header__mail"><span>sport@gmail.com</span></a>
-					</li>
-				</ul> 
-			</div>
-			<div class="bottom-header__column">
-				<div class="bottom-header__info info-header">
-					<div class="info-header__column">
-						<a href="#" class="info-header__callback"><span>Обратный звонок</span></a>
-					</div>
-					<div class="info-header__column">
-						<div href="#" class="info-header__schedule">
-							<p><span>Пн-Пт:</span> 09:00-21:00</p>
-							<p><span>Сб-Вс:</span> 10:00-20:00</p>
-						</div>
-						<a href="../../bascet.html" class="info-header__cart">
-							<span>12</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="header_up"></div>
-</header>			<main class="main _container">
-<section class="find">
-	<div class="find__form">
-		<p class="find__filter-button"><span>Везде</span></p>
-		<input type="text" class="find__request">
-		<button class="find__search"><a href="../../catalog.html">Найти</a></button>
-	</div>
-	<div class="find__filters">
-		<div class="find__column">
-			<p class="find__filter">Беговые дорожки</p>
-			<p class="find__filter">Эллиптические тренажеры</p>
-			<p class="find__filter">Велотренажеры</p>
-			<p class="find__filter">Гребные тренажеры</p>
-			<p class="find__filter">Вибромассажеры</p>
-		</div>
-		<div class="find__column">
-			<p class="find__filter">Теннисные столы</p>
-			<p class="find__filter">Баскетбольные щиты и стойки</p>
-			<p class="find__filter">Массажные кресла</p>
-			<p class="find__filter">Массажные столы</p>
-			<p class="find__filter">Силовые тренажеры</p>
-		</div>
-		<div class="find__column">
-			<p class="find__filter">Батуты</p>
-			<p class="find__filter">Детские городки</p>
-			<p class="find__filter">Дачная мебель</p>
-			<p class="find__filter">Уличные спортивные комплексы</p>
-			<p class="find__filter">Аксессуары</p>
-		</div>
-	</div>
-</section><aside class="side">
-	<div class="side__catalog catalog">
-		<div class="catalog__top">
-			<h1 class="catalog__h1">КАТАЛОГ<br>ТОВАРОВ</h1>
-			<div class="catalog__burger">
-				<span></span>
-			</div>
-		</div>
-		<div class="catalog__bottom">
-			<ul class="catalog__list">
-				<li class="catalog__point catalog__point-popap1">
-					<a href="#" class="catalog__link catalog__link-popap">Беговые дорожки</a>
-				</li>
-				<li class="catalog__point catalog__point-popap2">
-					<a href="#" class="catalog__link catalog__link-popap">Эллиптические тренажеры</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Велотренажеры</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Гребные тренажеры</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Вибромассажеры</a>
-				</li>
-				<li class="catalog__point catalog__point-popap3">
-					<a href="#" class="catalog__link catalog__link-popap">Теннисные столы</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Баскетбол</a>
-				</li>
-				<li class="catalog__point catalog__point-popap4">
-					<a href="#" class="catalog__link catalog__link-popap">Массажные кресла</a>
-				</li>
-				<li class="catalog__point catalog__point-popap5">
-					<a href="#" class="catalog__link catalog__link-popap">Массажные столы </a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Силовые тренажеры</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Батуты</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Детские городки</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Дачная мебель</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Уличные спортивные комплексы</a>
-				</li>
-				<li class="catalog__point catalog__point-not">
-					<a href="#" class="catalog__link">Аксессуары</a>
-				</li>
-			</ul>
-			<div class="catalog__popap popap">
-				<div class="popap__close"></div>
-				<ul class="popap__list">
-					<li class="popap__point">
-						<a href="#" class="popap__link">Всепогодный</a>
-					</li>
-					<li class="popap__point">
-						<a href="#" class="popap__link">Для помещений</a>
-					</li>
-					<li class="popap__point">
-						<a href="#" class="popap__link">Профессиональный</a>
-					</li>
-					<li class="popap__point">
-						<a href="#" class="popap__link">Любительский</a>
-					</li>
-				</ul>
-				<div class="popap__daylot daylot">
-					<p class="daylot__title">ТОВАР ДНЯ</p>
-					<div class="daylot__img-wrapper">
-						<img src="../../img/table.jpg" alt="товар дня">
-					</div>
-					<a href="#" class="daylot__name">Домашний теннисный стол
-					Donic Indoor Roller 800 Green</a>
-					<div class="daylot__row">
-					    <a href="../../bascet.html" class="daylot__basket"></a>
-					    <p class="daylot__cost">64990 ₽</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="side__news news">
-		<a href="#" class="news__h1">НОВОСТИ</a>
-		<a href="#" class="news__block">
-			<p class="news__title">Снижение цен на игровые площадки Jungle Gym</p>
-			<div class="news__row">
-				<p class="news__date">12<br>
-				<span>авг</span>
-			</p>
-				<p class="news__description">
-					Уважаемые покупатели! 
-					Мы рады сообщить вам о снижении 
-					цены с 27 июля на детский игровой 
-					комплекс
-				</p>
-			</div>
-		</a>
-		<a href="#" class="news__block">
-			<p class="news__title">Поступление батутов Eclipse!</p>
-			<div class="news__row">
-				<p class="news__date">19<br>
-				<span>авг</span>
-			</p>
-				<p class="news__description">
-					Уважаемые покупатели! 
-					Мы рады сообщить вам о снижении 
-					цены с 27 июля на детский игровой 
-					комплекс
-				</p>
-			</div>
-		</a>
-	</div>
-	<div class="side__testimonials testimonials">
-		<a href="#" class="testimonials__h1">ОТЫВЫ</a>
-		<div class="testimonials__block">
-			<div class="testimonials__row">
-				<p class="testimonials__name">ПАВЕЛ НИКИФОРОВ</p>
-				<p class="testimonials__date">12.09.2015</p>
-			</div>
-			<p class="testimonials__testimonial">
-				Ради экономии места в тренажерном 
-				зале приобрел многофункциональный 
-				силовой тренажер Life Gear. За такую 
-				небольшую стоимость и с такими 
-				возможностями, он просто не 
-				заменим.
-			</p>
-		</div>
-		<div class="testimonials__block">
-			<div class="testimonials__row">
-				<p class="testimonials__name">СТЕПАН НИКОЛАЕВИЧ</p>
-				<p class="testimonials__date">12.09.2015</p>
-			</div>
-			<p class="testimonials__testimonial">
-				Спасибо за прекрасный совет, 
-				велосипед всей семье понравился 
-				и цену за него достойную запросили.
-			</p>
-		</div>
-	</div>
-</aside>				<section class="main__content content">
-					<div class="bradcrams">
-						<ul class="main__bradcrams bradcrams__list">
-							<li class="bradcrams__item">
-								<a href="../index.html"><span>Главная</span></a>
-							</li>
-							<li class="bradcrams__item">
-								<a href="#"><span>Каталог товара</span></a>
+							<li>
+								<a href="mailto:sport@gmail.com" class="actions-header__mail"><span>sport@gmail.com</span></a>
 							</li>
 						</ul>
 					</div>
-					<h1 class="content__title">BH Fitness F1 G6414V</h1>
-					<h2 class="content__subtitle">Беговая дорожка</h2>
-					<div class="content__cart cart">
-							<div class="cart__images">
-								<div class="cart__main-wrap">
-									<p class="cart__sale">-15%</p>
-									<div class="cart__main-img">
-										<img src="../img/product1.jpg" alt="">
-									</div>
+					<div class="bottom-header__column">
+						<div class="bottom-header__info info-header">
+							<div class="info-header__column">
+								<a href="#" class="info-header__callback"><span>Обратный звонок</span></a>
+							</div>
+							<div class="info-header__column">
+								<div href="#" class="info-header__schedule">
+									<p><span>Пн-Пт:</span> 09:00-21:00</p>
+									<p><span>Сб-Вс:</span> 10:00-20:00</p>
 								</div>
-								<div class="cart__sub-imgs">
-									<div class="cart__sub-img">
-										<img src="../img/product1-mini1.jpg" alt="">
-									</div>
-									<div class="cart__sub-img">
-										<img src="../img/product1-mini2.jpg" alt="">
-									</div>
-									<div class="cart__sub-img">
-										<img src="../img/product1-mini3.jpg" alt="">
-									</div>
-									<div class="cart__sub-img">
-										<img src="../img/product1-mini4.jpg" alt="">
-									</div>
+								<a href="bascet.html" class="info-header__cart">
+									<span>12</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_up"></div>
+		</header>
+		<main class="main _container">
+			<section class="find">
+				<div class="find__form">
+					<p class="find__filter-button"><span>Везде</span></p>
+					<input type="text" class="find__request">
+					<button class="find__search"><a href="catalog.html">Найти</a></button>
+				</div>
+				<div class="find__filters">
+					<div class="find__column">
+						<p class="find__filter">Беговые дорожки</p>
+						<p class="find__filter">Эллиптические тренажеры</p>
+						<p class="find__filter">Велотренажеры</p>
+						<p class="find__filter">Гребные тренажеры</p>
+						<p class="find__filter">Вибромассажеры</p>
+					</div>
+					<div class="find__column">
+						<p class="find__filter">Теннисные столы</p>
+						<p class="find__filter">Баскетбольные щиты и стойки</p>
+						<p class="find__filter">Массажные кресла</p>
+						<p class="find__filter">Массажные столы</p>
+						<p class="find__filter">Силовые тренажеры</p>
+					</div>
+					<div class="find__column">
+						<p class="find__filter">Батуты</p>
+						<p class="find__filter">Детские городки</p>
+						<p class="find__filter">Дачная мебель</p>
+						<p class="find__filter">Уличные спортивные комплексы</p>
+						<p class="find__filter">Аксессуары</p>
+					</div>
+				</div>
+			</section>
+			<aside class="side">
+				<div class="side__catalog catalog">
+					<div class="catalog__top">
+						<h1 class="catalog__h1">КАТАЛОГ<br>ТОВАРОВ</h1>
+						<div class="catalog__burger">
+							<span></span>
+						</div>
+					</div>
+					<div class="catalog__bottom">
+						<ul class="catalog__list">
+							<li class="catalog__point catalog__point-popap1">
+								<a href="#" class="catalog__link catalog__link-popap">Беговые дорожки</a>
+							</li>
+							<li class="catalog__point catalog__point-popap2">
+								<a href="#" class="catalog__link catalog__link-popap">Эллиптические тренажеры</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Велотренажеры</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Гребные тренажеры</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Вибромассажеры</a>
+							</li>
+							<li class="catalog__point catalog__point-popap3">
+								<a href="#" class="catalog__link catalog__link-popap">Теннисные столы</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Баскетбол</a>
+							</li>
+							<li class="catalog__point catalog__point-popap4">
+								<a href="#" class="catalog__link catalog__link-popap">Массажные кресла</a>
+							</li>
+							<li class="catalog__point catalog__point-popap5">
+								<a href="#" class="catalog__link catalog__link-popap">Массажные столы </a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Силовые тренажеры</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Батуты</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Детские городки</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Дачная мебель</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Уличные спортивные комплексы</a>
+							</li>
+							<li class="catalog__point catalog__point-not">
+								<a href="#" class="catalog__link">Аксессуары</a>
+							</li>
+						</ul>
+						<div class="catalog__popap popap">
+							<div class="popap__close"></div>
+							<ul class="popap__list">
+								<li class="popap__point">
+									<a href="#" class="popap__link">Всепогодный</a>
+								</li>
+								<li class="popap__point">
+									<a href="#" class="popap__link">Для помещений</a>
+								</li>
+								<li class="popap__point">
+									<a href="#" class="popap__link">Профессиональный</a>
+								</li>
+								<li class="popap__point">
+									<a href="#" class="popap__link">Любительский</a>
+								</li>
+							</ul>
+							<div class="popap__daylot daylot">
+								<p class="daylot__title">ТОВАР ДНЯ</p>
+								<div class="daylot__img-wrapper">
+									<img src="img/table.jpg" alt="товар дня">
+								</div>
+								<a href="#" class="daylot__name">Домашний теннисный стол
+									Donic Indoor Roller 800 Green</a>
+								<div class="daylot__row">
+									<a href="bascet.html" class="daylot__basket"></a>
+									<p class="daylot__cost">64990 ₽</p>
 								</div>
 							</div>
-							<div class="cart__info">
-								<div class="cart__flor-1">
-									<button class="cart__compare">СРАВНИТЬ</button>
-									<div class="cart__have">в наличии</div>
-								</div>
-								<div class="cart__flor-2">
-									<div class="cart__cost">
-										<p class="cart__cost1">64 990 <span>₽</span></p>
-										<p class="cart__cost2">64 990 <span>₽</span></p>
-									</div>
-									<div class="cart__counter">
-										<div class="cart__arrowL"></div>
-										<input type="number" value="1" class="cart__number">
-										<div class="cart__arrowR"></div>
-									</div>
-									<a href="../bascet.html" class="cart__bascet"></a>
-									<a href="../bascet.html" class="cart__in-bascet">В КОРЗИНУ</a>
-								</div>
-								<p class="cart__include">В СТОИМОСТЬ ТОВАРА ВКЛЮЧЕНО:</p>
-								<div class="cart__flor-3">
-										<!-- <div class="cart__advantage-img1"></div>
+						</div>
+					</div>
+				</div>
+				<div class="side__news news">
+					<a href="#" class="news__h1">НОВОСТИ</a>
+					<a href="#" class="news__block">
+						<p class="news__title">Снижение цен на игровые площадки Jungle Gym</p>
+						<div class="news__row">
+							<p class="news__date">12<br>
+								<span>авг</span>
+							</p>
+							<p class="news__description">
+								Уважаемые покупатели!
+								Мы рады сообщить вам о снижении
+								цены с 27 июля на детский игровой
+								комплекс
+							</p>
+						</div>
+					</a>
+					<a href="#" class="news__block">
+						<p class="news__title">Поступление батутов Eclipse!</p>
+						<div class="news__row">
+							<p class="news__date">19<br>
+								<span>авг</span>
+							</p>
+							<p class="news__description">
+								Уважаемые покупатели!
+								Мы рады сообщить вам о снижении
+								цены с 27 июля на детский игровой
+								комплекс
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="side__testimonials testimonials">
+					<a href="#" class="testimonials__h1">ОТЫВЫ</a>
+					<div class="testimonials__block">
+						<div class="testimonials__row">
+							<p class="testimonials__name">ПАВЕЛ НИКИФОРОВ</p>
+							<p class="testimonials__date">12.09.2015</p>
+						</div>
+						<p class="testimonials__testimonial">
+							Ради экономии места в тренажерном
+							зале приобрел многофункциональный
+							силовой тренажер Life Gear. За такую
+							небольшую стоимость и с такими
+							возможностями, он просто не
+							заменим.
+						</p>
+					</div>
+					<div class="testimonials__block">
+						<div class="testimonials__row">
+							<p class="testimonials__name">СТЕПАН НИКОЛАЕВИЧ</p>
+							<p class="testimonials__date">12.09.2015</p>
+						</div>
+						<p class="testimonials__testimonial">
+							Спасибо за прекрасный совет,
+							велосипед всей семье понравился
+							и цену за него достойную запросили.
+						</p>
+					</div>
+				</div>
+			</aside>
+			<section class="main__content content">
+				<div class="bradcrams">
+					<ul class="main__bradcrams bradcrams__list">
+						<li class="bradcrams__item">
+							<a href="index.html"><span>Главная</span></a>
+						</li>
+						<li class="bradcrams__item">
+							<a href="#"><span>Каталог товара</span></a>
+						</li>
+					</ul>
+				</div>
+				<h1 class="content__title">BH Fitness F1 G6414V</h1>
+				<h2 class="content__subtitle">Беговая дорожка</h2>
+				<div class="content__cart cart">
+					<div class="cart__images">
+						<div class="cart__main-wrap">
+							<p class="cart__sale">-15%</p>
+							<div class="cart__main-img">
+								<img src="img/product1.jpg" alt="">
+							</div>
+						</div>
+						<div class="cart__sub-imgs">
+							<div class="cart__sub-img">
+								<img src="img/product1-mini1.jpg" alt="">
+							</div>
+							<div class="cart__sub-img">
+								<img src="img/product1-mini2.jpg" alt="">
+							</div>
+							<div class="cart__sub-img">
+								<img src="img/product1-mini3.jpg" alt="">
+							</div>
+							<div class="cart__sub-img">
+								<img src="img/product1-mini4.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="cart__info">
+						<div class="cart__flor-1">
+							<button class="cart__compare">СРАВНИТЬ</button>
+							<div class="cart__have">в наличии</div>
+						</div>
+						<div class="cart__flor-2">
+							<div class="cart__cost">
+								<p class="cart__cost1">64 990 <span>₽</span></p>
+								<p class="cart__cost2">64 990 <span>₽</span></p>
+							</div>
+							<div class="cart__counter">
+								<div class="cart__arrowL"></div>
+								<input type="number" value="1" class="cart__number">
+								<div class="cart__arrowR"></div>
+							</div>
+							<a href="bascet.html" class="cart__bascet"></a>
+							<a href="bascet.html" class="cart__in-bascet">В КОРЗИНУ</a>
+						</div>
+						<p class="cart__include">В СТОИМОСТЬ ТОВАРА ВКЛЮЧЕНО:</p>
+						<div class="cart__flor-3">
+							<!-- <div class="cart__advantage-img1"></div>
 										<div class="cart__advantage-img2"></div>
 										<div class="cart__advantage-img3"></div>
 										<p class="cart__label">Бесплатная cборка</p>
 										<p class="cart__label">Бесплатная доставка</p>
 										<p class="cart__label">Гарантия</p> -->
-									<div class="cart__advantages">
-										<div class="cart__advantage">
-											<div class="cart__advantage-img cart__advantage-img_1"></div>
-											<p class="cart__label">Бесплатная cборка</p>
-										</div>
-										<div class="cart__advantage">
-											<div class="cart__advantage-img cart__advantage-img_2"></div>
-											<p class="cart__label">Бесплатная доставка</p>
-										</div>
-										<div class="cart__advantage">
-											<div class="cart__advantage-img cart__advantage-img_3"></div>
-											<p class="cart__label">Гарантия</p>
-										</div>
-									</div>
+							<div class="cart__advantages">
+								<div class="cart__advantage">
+									<div class="cart__advantage-img cart__advantage-img_1"></div>
+									<p class="cart__label">Бесплатная cборка</p>
+								</div>
+								<div class="cart__advantage">
+									<div class="cart__advantage-img cart__advantage-img_2"></div>
+									<p class="cart__label">Бесплатная доставка</p>
+								</div>
+								<div class="cart__advantage">
+									<div class="cart__advantage-img cart__advantage-img_3"></div>
+									<p class="cart__label">Гарантия</p>
 								</div>
 							</div>
-					</div>
-					<div class="content__info info">
-						<button class="info__button info__button_description active"><span>ОПИСАНИЕ</span></button>
-						<button class="info__button info__button_properties"><span>ХАРАКТЕРИСТИКИ</span></button>
-						<div class="info__description active">
-							<p class="info__txt-block">
-								Начав с производства качественных деревянных лыж, во второй половине 90-х Nordic Track расширил производство, верно угадав тренд развития спортивного оборудования. С этого момента беговые дорожки Nordic Track стали настоящим фетишем как для серьезных спортсменов, так и для любителей фитнеса. Готовитесь ли вы к восхождению на горный пик, к сплаву по бурной реке, или просто решили влезть в прошлогодний купальник к наступающему лету – Nordic Track поможет достойно решить задачу подготовки к этим свершениям.
-							</p>
-							<p class="info__txt-block">
-								Гарантия Nordic Track достойна их качества – 24 месяца с даты покупки.
-							</p>
-							<div class="info__txt-block">
-								<h3>Недостатки</h3>
-								<p>
-									В линейке производителя отсутствуют модели бюджетного уровня. Кредо производителя – не гнаться за дешевизной, а предлагать действительно качественный и функциональный товар.
-								</p>
-							</div>
-							<div class="info__txt-block">
-								<h3>Рекомендации</h3>
-								<p>
-									Мощные топ-модели лучше устанавливать на специальный шумо-виброзащитный коврик, особенно если живете не на первом этаже.
-								</p>
-								<ul class="info__popular">
-									<li>Популярные модели</li>
-									<li>Nordic Track T15</li>
-									<li>Nordic Track Inline Trainer x7i</li>
-								</ul>
-							</div>
-						</div>
-						<div class="info__properties">
-							<ul class="info__list">
-								<li class="info__property">
-									<p class="info__name">Использование</p>
-									<p class="info__value">Полупрофессиональное</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Тип беговой дорожки</p>
-									<p class="info__value">Электрическая</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Макс. вес пользователя (кг)</p>
-									<p class="info__value">135</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Скорость движения (км/ч)</p>
-									<p class="info__value">22</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Угол наклона</p>
-									<p class="info__value">0 - 15%</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Регулировка угла наклона</p>
-									<p class="info__value">Автоматическая</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Складывание</p>
-									<p class="info__value">Есть</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Постоянная мощность двигателя (л.с.)</p>
-									<p class="info__value">3</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Консоль</p>
-									<p class="info__value">LCD консоль с голубой подсветкой</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Показания консоли</p>
-									<p class="info__value">
-										Скорость, время, дистанция, пульс, потраченные калории пройденный путь, программа, угол наклона
-									</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Система измерения пульса</p>
-									<p class="info__value">Дублирующие сенсорные датчики, Polar приемник</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Количество программ тренировки</p>
-									<p class="info__value">32</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Встроенные программы</p>
-									<p class="info__value">26</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Пользовательские программы</p>
-									<p class="info__value">4</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Специальные программные возможности</p>
-									<p class="info__value">RaceTrack™, iFit® Live</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Мультимедия</p>
-									<p class="info__value">Аудиоразъём для iPod®**, Intermix Acoustics™ 3.0 встроенные динамики</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Транспортировочные ролики/колеса</p>
-									<p class="info__value">Да</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Беговое полотно</p>
-									<p class="info__value">3-х слойное, ортопедическое</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Система амортизации</p>
-									<p class="info__value">QuadFlex™</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Рама</p>
-									<p class="info__value">Стальная, высокопрочная</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Дека</p>
-									<p class="info__value">25 мм, парафинированная</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Подставка для аксессуаров</p>
-									<p class="info__value">Да</p>
-								</li>
-								<li class="info__property">
-									<p class="info__name">Питание</p>
-									<p class="info__value">Сеть 220 Вольт</p>
-								</li>
-							</ul>	
 						</div>
 					</div>
-					<h2 class="content__subtitle">Похожие товары</h2>
-					<div class="content__similar">
-						<div class="content__item">
-							<div class="content__img">
-								<img src="../img/1lot.jpg" alt="">
-							</div>
-							<a href="../product's_cart.html" class="content__name">
-								BH Fitness F1 G6414V<br>
-								<span>Беговая дорожка</span>
-							</a>
-							<div class="content__buy">
-								<div class="content__cost">
-									<p class="content__cost1">64 990 ₽</p>
-									<p class="content__cost2">64 990 ₽</p>
-								</div>	
-								<a href="../bascet.html" class="content__basket"></a>
-							</div>
+				</div>
+				<div class="content__info info">
+					<button class="info__button info__button_description active"><span>ОПИСАНИЕ</span></button>
+					<button class="info__button info__button_properties"><span>ХАРАКТЕРИСТИКИ</span></button>
+					<div class="info__description active">
+						<p class="info__txt-block">
+							Начав с производства качественных деревянных лыж, во второй половине 90-х Nordic Track расширил
+							производство, верно угадав тренд развития спортивного оборудования. С этого момента беговые дорожки
+							Nordic Track стали настоящим фетишем как для серьезных спортсменов, так и для любителей фитнеса.
+							Готовитесь ли вы к восхождению на горный пик, к сплаву по бурной реке, или просто решили влезть в
+							прошлогодний купальник к наступающему лету – Nordic Track поможет достойно решить задачу подготовки
+							к этим свершениям.
+						</p>
+						<p class="info__txt-block">
+							Гарантия Nordic Track достойна их качества – 24 месяца с даты покупки.
+						</p>
+						<div class="info__txt-block">
+							<h3>Недостатки</h3>
+							<p>
+								В линейке производителя отсутствуют модели бюджетного уровня. Кредо производителя – не гнаться
+								за дешевизной, а предлагать действительно качественный и функциональный товар.
+							</p>
 						</div>
-						<div class="content__item">
-							<div class="content__img">
-								<img src="../img/1lot.jpg" alt="">
+						<div class="info__txt-block">
+							<h3>Рекомендации</h3>
+							<p>
+								Мощные топ-модели лучше устанавливать на специальный шумо-виброзащитный коврик, особенно если
+								живете не на первом этаже.
+							</p>
+							<ul class="info__popular">
+								<li>Популярные модели</li>
+								<li>Nordic Track T15</li>
+								<li>Nordic Track Inline Trainer x7i</li>
+							</ul>
+						</div>
+					</div>
+					<div class="info__properties">
+						<ul class="info__list">
+							<li class="info__property">
+								<p class="info__name">Использование</p>
+								<p class="info__value">Полупрофессиональное</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Тип беговой дорожки</p>
+								<p class="info__value">Электрическая</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Макс. вес пользователя (кг)</p>
+								<p class="info__value">135</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Скорость движения (км/ч)</p>
+								<p class="info__value">22</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Угол наклона</p>
+								<p class="info__value">0 - 15%</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Регулировка угла наклона</p>
+								<p class="info__value">Автоматическая</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Складывание</p>
+								<p class="info__value">Есть</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Постоянная мощность двигателя (л.с.)</p>
+								<p class="info__value">3</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Консоль</p>
+								<p class="info__value">LCD консоль с голубой подсветкой</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Показания консоли</p>
+								<p class="info__value">
+									Скорость, время, дистанция, пульс, потраченные калории пройденный путь, программа, угол
+									наклона
+								</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Система измерения пульса</p>
+								<p class="info__value">Дублирующие сенсорные датчики, Polar приемник</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Количество программ тренировки</p>
+								<p class="info__value">32</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Встроенные программы</p>
+								<p class="info__value">26</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Пользовательские программы</p>
+								<p class="info__value">4</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Специальные программные возможности</p>
+								<p class="info__value">RaceTrack™, iFit® Live</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Мультимедия</p>
+								<p class="info__value">Аудиоразъём для iPod®**, Intermix Acoustics™ 3.0 встроенные динамики</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Транспортировочные ролики/колеса</p>
+								<p class="info__value">Да</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Беговое полотно</p>
+								<p class="info__value">3-х слойное, ортопедическое</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Система амортизации</p>
+								<p class="info__value">QuadFlex™</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Рама</p>
+								<p class="info__value">Стальная, высокопрочная</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Дека</p>
+								<p class="info__value">25 мм, парафинированная</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Подставка для аксессуаров</p>
+								<p class="info__value">Да</p>
+							</li>
+							<li class="info__property">
+								<p class="info__name">Питание</p>
+								<p class="info__value">Сеть 220 Вольт</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<h2 class="content__subtitle">Похожие товары</h2>
+				<div class="content__similar">
+					<div class="content__item">
+						<div class="content__img">
+							<img src="img/1lot.jpg" alt="">
+						</div>
+						<a href="product's_cart.html" class="content__name">
+							BH Fitness F1 G6414V<br>
+							<span>Беговая дорожка</span>
+						</a>
+						<div class="content__buy">
+							<div class="content__cost">
+								<p class="content__cost1">64 990 ₽</p>
+								<p class="content__cost2">64 990 ₽</p>
 							</div>
-							<a href="../product's_cart.html" class="content__name">
-								BH Fitness F1 G6414V<br>
-								<span>Беговая дорожка</span>
-							</a>
-							<div class="content__buy">
-								<div class="content__cost">
-									<p class="content__cost1">64 990 ₽</p>
-									<p class="content__cost2">64 990 ₽</p>
-								</div>	
-								<a href="../bascet.html" class="content__basket"></a>
+							<a href="bascet.html" class="content__basket"></a>
+						</div>
+					</div>
+					<div class="content__item">
+						<div class="content__img">
+							<img src="img/1lot.jpg" alt="">
+						</div>
+						<a href="product's_cart.html" class="content__name">
+							BH Fitness F1 G6414V<br>
+							<span>Беговая дорожка</span>
+						</a>
+						<div class="content__buy">
+							<div class="content__cost">
+								<p class="content__cost1">64 990 ₽</p>
+								<p class="content__cost2">64 990 ₽</p>
 							</div>
-							<!-- <div class="gallery__hover-form hover-form">
+							<a href="bascet.html" class="content__basket"></a>
+						</div>
+						<!-- <div class="gallery__hover-form hover-form">
 										<a href="#" class="hover-form__name">
 											BH Fitness F1 G6414V<br>
 											<span>Беговая дорожка</span>
@@ -557,23 +571,23 @@
 											</div>
 										</div>	
 							</div> -->
+					</div>
+					<div class="content__item content__item-last">
+						<div class="content__img">
+							<img src="img/1lot.jpg" alt="">
 						</div>
-						<div class="content__item content__item-last">
-							<div class="content__img">
-								<img src="../img/1lot.jpg" alt="">
+						<a href="product's_cart.html" class="content__name">
+							BH Fitness F1 G6414V<br>
+							<span>Беговая дорожка</span>
+						</a>
+						<div class="content__buy">
+							<div class="content__cost">
+								<p class="content__cost1">64 990 ₽</p>
+								<p class="content__cost2">64 990 ₽</p>
 							</div>
-							<a href="../product's_cart.html" class="content__name">
-								BH Fitness F1 G6414V<br>
-								<span>Беговая дорожка</span>
-							</a>
-							<div class="content__buy">
-								<div class="content__cost">
-									<p class="content__cost1">64 990 ₽</p>
-									<p class="content__cost2">64 990 ₽</p>
-								</div>	
-								<a href="../bascet.html" class="content__basket"></a>
-							</div>
-							<!-- <div class="gallery__hover-form hover-form">
+							<a href="bascet.html" class="content__basket"></a>
+						</div>
+						<!-- <div class="gallery__hover-form hover-form">
 										<a href="#" class="hover-form__name">
 											BH Fitness F1 G6414V<br>
 											<span>Беговая дорожка</span>
@@ -601,97 +615,100 @@
 											</div>
 										</div>	
 							</div> -->
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+
+			<div class="footer__top  top-footer">
+				<div class="top-footer__column _container">
+					<div class="about__whore">
+						<!-- ЭТО ДЛЯ ЭБАУТА -->
+						<img src="img/whore.png" alt="">
+					</div>
+					<div class="top-footer__info">
+						<p class="top-footer__title">Информация:</p>
+						<p class="top-footer__button">Информация</p>
+						<ul class="top-footer__info-list">
+							<li><a href="#">Бренды</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Распрдажа</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__help">
+						<p class="top-footer__title">Помощь:</p>
+						<p class="top-footer__button">Помощь</p>
+						<ul class="top-footer__help-list">
+							<li><a href="#">Как заказать</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Оплата</a></li>
+							<li><a href="#">Гарантия и сборка</a></li>
+							<li><a href="#">Возврат</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer _container">
+				<div class="bottom-footer__column">
+					<div class="bottom-footer__wrapper-logo">
+						<img src="img/Logo.png" alt="">
+					</div>
+					<div class="bottom-footer__phones">
+						<a href='tel:8-499-123-45-67'>8-499-123-45-67</a>
+						<a href='tel:8-800-123-45-67'>8-800-123-45-67</a>
+					</div>
+				</div>
+				<div class="bottom-footer__delivery delivery-footer">
+					<p class="delivery-footer__title">ДОСТАВКА ТРАНСПОРТНЫМИ КОМПАНИЯМИ:</p>
+					<p class="delivery-footer__button">ДОСТАВКА ТРАНСПОРТНЫМИ КОМПАНИЯМИ</p>
+					<div class="delivery-footer__column">
+						<div class="delivery-footer__row">
+							<div class="delivery-footer__dl"></div>
+							<div class="delivery-footer__pek"></div>
+							<div class="delivery-footer__avtoT"></div>
+						</div>
+						<div class="delivery-footer__row">
+							<div class="delivery-footer__JD"></div>
+							<div class="delivery-footer__kit"></div>
+							<div class="delivery-footer__baikalS"></div>
 						</div>
 					</div>
-				</section>
-			</main>
-<footer class="footer">
-	
-	<div class="footer__top  top-footer">
-		<div class="top-footer__column _container">
-			<div class="about__whore"><!-- ЭТО ДЛЯ ЭБАУТА -->
-				<img src="../img/whore.png" alt="">
-			</div>
-			<div class="top-footer__info">
-				<p class="top-footer__title">Информация:</p>
-				<p class="top-footer__button">Информация</p>
-				<ul class="top-footer__info-list">
-					<li><a href="#">Бренды</a></li>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Распрдажа</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Отзывы</a></li>
-				</ul>
-			</div>
-			<div class="top-footer__help">
-				<p class="top-footer__title">Помощь:</p>
-				<p class="top-footer__button">Помощь</p>
-				<ul class="top-footer__help-list">
-					<li><a href="#">Как заказать</a></li>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Оплата</a></li>
-					<li><a href="#">Гарантия и сборка</a></li>
-					<li><a href="#">Возврат</a></li>
-				</ul>
-			</div>
-		</div>	
-	</div>
-	<div class="footer__bottom bottom-footer _container">
-		<div class="bottom-footer__column">
-			<div class="bottom-footer__wrapper-logo">
-				<img src="../../img/Logo.png" alt="">
-			</div>
-			<div class="bottom-footer__phones">
-				<a href='tel:8-499-123-45-67'>8-499-123-45-67</a>
-				<a href='tel:8-800-123-45-67'>8-800-123-45-67</a>
-			</div>
-		</div>
-		<div class="bottom-footer__delivery delivery-footer">
-			<p class="delivery-footer__title">ДОСТАВКА ТРАНСПОРТНЫМИ КОМПАНИЯМИ:</p>
-			<p class="delivery-footer__button">ДОСТАВКА ТРАНСПОРТНЫМИ КОМПАНИЯМИ</p>
-			<div class="delivery-footer__column">
-				<div class="delivery-footer__row">
-					<div class="delivery-footer__dl"></div>
-					<div class="delivery-footer__pek"></div>
-					<div class="delivery-footer__avtoT"></div>
 				</div>
-				<div class="delivery-footer__row">
-					<div class="delivery-footer__JD"></div>
-					<div class="delivery-footer__kit"></div>
-					<div class="delivery-footer__baikalS"></div>
+				<p class="bottom-footer__social-spoiler">НАШИ СООБЩЕСТВА</p>
+				<div class="bottom-footer__social social-footer">
+					<div class="social-footer__block1"></div>
+					<div class="social-footer__block2"></div>
+				</div>
+				<div class="bottom-footer__payment">
+					<img src="img/viza.png" alt="viza" class="bottom-footer-cart	bottom-footer__viza">
+					<img src="img/mc.png" alt="mc" class="bottom-footer-cart	bottom-footer__mc">
+					<img src="img/wm.png" alt="wm" class="bottom-footer-cart	bottom-footer__wm">
+					<img src="img/ym.png" alt="ym" class="bottom-footer-cart	bottom-footer__ym">
+					<img src="img/qiwi.png" alt="qiwi" class="bottom-footer-cart	bottom-footer__qiwi">
 				</div>
 			</div>
-		</div>
-		<p class="bottom-footer__social-spoiler">НАШИ СООБЩЕСТВА</p>
-		<div class="bottom-footer__social social-footer">
-			<div class="social-footer__block1"></div>
-			<div class="social-footer__block2"></div>
-		</div>
-		<div class="bottom-footer__payment">
-			<img src="../../img/viza.png" alt="viza" class="bottom-footer-cart	bottom-footer__viza">
-			<img src="../../img/mc.png" alt="mc" class="bottom-footer-cart	bottom-footer__mc">
-			<img src="../../img/wm.png" alt="wm" class="bottom-footer-cart	bottom-footer__wm">
-			<img src="../../img/ym.png" alt="ym" class="bottom-footer-cart	bottom-footer__ym">
-			<img src="../../img/qiwi.png" alt="qiwi" class="bottom-footer-cart	bottom-footer__qiwi">
-		</div>
+			<div class="footer__footer footer-footer _container">
+				<p class="footer-footer__copy">©2015 Все права защищены.</p>
+				<div class="footer-footer__socWEB">
+					<a href="#" class="footer-footer__link footer-footer__link-vk"></a>
+					<a href="#" class="footer-footer__link footer-footer__link-fb"></a>
+					<a href="#" class="footer-footer__link footer-footer__link-inst"></a>
+					<a href="#" class="footer-footer__link footer-footer__link-odn"></a>
+				</div>
+			</div>
+		</footer>
 	</div>
-	<div class="footer__footer footer-footer _container">
-		<p class="footer-footer__copy">©2015 Все права защищены.</p>
-		<div class="footer-footer__socWEB">
-			<a href="#" class="footer-footer__link footer-footer__link-vk"></a>
-			<a href="#" class="footer-footer__link footer-footer__link-fb"></a>
-			<a href="#" class="footer-footer__link footer-footer__link-inst"></a>
-			<a href="#" class="footer-footer__link footer-footer__link-odn"></a>
-		</div>
-	</div>
-</footer>		</div>
-		<script src="https://code.jquery.com/jquery-1.11.2.js "></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		<script src="../js/wNumb.min.js"></script>
-		<script src="../js/choices.min.js"></script>
-		<script src="../js/nouislider.js"></script>
-		<script src="../js/slick.min.js"></script>
-		<script src="../js/script-choice.js"></script> 
-		<script src="../js/script.js"></script>
-	</body>
+	<script src="https://code.jquery.com/jquery-1.11.2.js "></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/wNumb.min.js"></script>
+	<script src="js/choices.min.js"></script>
+	<script src="js/nouislider.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script-choice.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
 </html>
